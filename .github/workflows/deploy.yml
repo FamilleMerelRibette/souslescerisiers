@@ -77,7 +77,7 @@ jobs:
           port: 21
           protocol: ftp
           local-dir: ./_site/
-          server-dir: /souslescerisier/
+          server-dir: /souslescerisiers/
           dangerous-clean-slate: false
           log-level: standard
 
