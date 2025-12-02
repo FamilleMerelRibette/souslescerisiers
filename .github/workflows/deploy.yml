@@ -77,7 +77,7 @@ jobs:
           port: 21
           protocol: ftp
           local-dir: ./_site/
-          server-dir: /asteria-production/
+          server-dir: /souslescerisier/
           dangerous-clean-slate: false
           log-level: standard
 
