@@ -29,7 +29,7 @@ texte: |
     confidences, les notes s’élèvent. Des ruelles de Paris aux clubs feutrés de New York, le jazz
     devient le fil rouge d’un voyage où les mots et la musique s’entrelacent.
     Dans ce concert romancé, les grands classiques de la chanson française des années 30 à 50
-    prennent vie , portés par une voix, une histoire, un héritage. Il n’y a ni décor ni artifice : juste la
+    prennent vie, portés par une voix, une histoire, un héritage. Il n’y a ni décor ni artifice : juste la
     sincérité d’un récit, le velours de quelques notes de musique, et la complicité d’un public invité
     à rêver, fredonner, peut-être même danser.
     Chaque morceau est une passerelle, chaque anecdote une caresse.
