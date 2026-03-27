@@ -1,39 +1,29 @@
 ---
-titre: Sous les cerisiers
 slug: slc
 draft: false
-affiche: media/slc.jpg
-youtube:
-soundcloud: https://api.soundcloud.com/playlists/2083344321
-type: Concert romancé - solo sur bande son
-repertoire: Jazz des années 30 à 50
-contact: sonia.ribette@gmail.com
-formation: "Chant: solo sur bande son"
+affiche: media/slc-duo.jpg
+url_youtube: https://youtube.com/@souslescerisiers-duoacoustique?si=6vUMAemBE43R7JbX
+url_instagram: https://www.instagram.com/sous.les.cerisiers?igsh=MTQxNHJpeDU3dDJpaw==
+brochure: media/brochure.pdf
+type: Concert acoustique
+repertoire: Pop Jazz-Swing
+contact: |
+  <span class="font-bold"><i class="fas fa-envelope"></i></span>&nbsp;slc.duoacoustique@gmail.com
+
+  Sonia Ribette <span class="font-bold"><i class="fas fa-phone"></i></span>&nbsp;06 22 48 83 73
+  Julien Taris <span class="font-bold"><i class="fas fa-phone"></i></span>&nbsp;06 44 06 98 63
 interpretes: |
-    Sonia ribette au chant
-agenda:
-    - date: 01/01/26
-      lieu: Tresses (33)
-    - date: 16/12/25
-      lieu: Floirac (33)
-    - date: 02/10/25
-      lieu: Bordeaux (33)
-    - date: 23/07/25
-      lieu: Bordeaux (33)
-    - date: 25/04/25
-      lieu: Villenave d'Ornon (33)
+    Sonia Ribette au chant et aux percussions
+    Julien Taris à la guitare et au chant
 texte: |
-    Il suffit parfois d’une chanson pour réveiller un souvenir, d’une mélodie pour faire renaître un
-    monde…
-    Sonia vous ouvre les pages secrètes du journal intime de Rose, sa grand-mère, et, entre deux
-    confidences, les notes s’élèvent. Des ruelles de Paris aux clubs feutrés de New York, le jazz
-    devient le fil rouge d’un voyage où les mots et la musique s’entrelacent.
-    Dans ce concert romancé, les grands classiques de la chanson française des années 30 à 50
-    prennent vie, portés par une voix, une histoire, un héritage. Il n’y a ni décor ni artifice : juste la
-    sincérité d’un récit, le velours de quelques notes de musique, et la complicité d’un public invité
-    à rêver, fredonner, peut-être même danser.
-    Chaque morceau est une passerelle, chaque anecdote une caresse.
-    Sous les cerisiers, on écoute, on sourit, on s’émeut.
+  Nous sommes Sous les cerisiers, un duo acoustique au style jazz swing moderne, mêlant grands standards intemporels et relectures pop revisitées avec audace.
+  Notre univers, à la fois chic et actuel, s’adresse aux lieux et événements en quête d’une ambiance musicale vivante et raffinée.
+
+  Nous intervenons aussi bien pour des atmosphères intimistes et feutrées que pour des moments plus festifs, toujours avec cette signature qui nous distingue :
+  un swing moderne, solaire, et résolument élégant.
+
+  Autour du duo, nous avons également développé un collectif modulable, allant du duo à l’octet.
+  Cela nous permet d’adapter aussi bien le répertoire que le format — nombre de musiciens, énergie, configuration — en fonction des envies, des besoins et du budget de chaque événement.
 ---
 
 {% extends "modeles/affiche-gauche.html" %}

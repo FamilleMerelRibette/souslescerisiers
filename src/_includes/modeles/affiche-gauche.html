@@ -1,18 +1,19 @@
 <div
-    class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start scroll-mt-20"
+    class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch scroll-mt-20"
     id="{{ slug }}"
 >
-    <div>
+    <div class="flex flex-col">
         <img
             src="{{ affiche }}"
-            alt="affiche de {{ titre }}"
-            class="w-3/5 object-cover shadow-lg mx-auto block"
+            alt="affiche"
+            class="w-4/5 object-contain shadow-lg mx-auto block flex-grow"
         />
     </div>
     <div class="prose max-w-none flex flex-col min-h-full">
         <div>
+            {%- if titre -%}
             <h3 class="md:text-4xl text-3xl font-bold mb-2">{{ titre }}</h3>
-            {%- if type -%}
+            {%- endif -%} {%- if type -%}
             <h4 class="text-xl mb-2">{{ type }}</h4>
             {%- endif -%} {%- if repertoire -%}
             <h5 class="text-l mb-2">
@@ -24,10 +25,46 @@
             <p>{{ formation | nl2br | safe }}</p>
             <p>{{ interpretes | nl2br | safe }}</p>
             <p class="mt-8">
-                <span class="font-bold"><i class="fas fa-envelope"></i></span
-                >&nbsp; {{ contact }}
+                {{ contact | nl2br | safe }}
             </p>
+            <div class="flex mt-10 gap-4">
+            {%- if url_youtube -%}
+            <div>
+                <a href="{{ url_youtube }}">
+                <img
+                    src="media/youtube.jpg"
+                    alt="logo youtube"
+                    class="w-16 object-cover shadow-lg"
+                    />
+                </a>
+            </div>
+            {%- endif -%}
+            {%- if url_instagram -%}
+            <div>
+                <a href="{{ url_instagram }}">
+                <img
+                    src="media/instagram.jpg"
+                    alt="logo instagram"
+                    class="w-16 object-cover shadow-lg"
+                    />
+                </a>
+            </div>
+            {%- endif -%}
+            </div>
+
+            {%- if brochure -%}
+            <a href="{{ brochure }}">
+            <button
+                class="bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition-colors duration-300 mt-10"
+            >
+                <i class="fas fa-file-pdf"></i>
+                Brochure
+            </button>
+            </a>
+            {%- endif -%}
+
         </div>
+        {%- if agenda or site -%}
         <div class="flex-grow flex items-center mt-5">
             {%- if agenda -%}
             <button
@@ -78,6 +115,7 @@
             </div>
             {%- endif -%}
         </div>
+        {%- endif -%}
     </div>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
